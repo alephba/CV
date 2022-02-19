@@ -6,7 +6,7 @@
 % Notes:        All formatting is done in TLCresume.sty
 %====================
 
-\usepackage{TLCresume}
+\usepackage{TLCresume, ragged2e}
 
 %====================
 % CONTACT INFORMATION
@@ -21,12 +21,14 @@
 
 \input{_header}
 \begin{document}
+\begin{justify}
 \input{sections/objective}
+\end{justify}
 
 \section{Skills}
 \input{sections/skills}
 
-\section{Technical Experience}
+\section{Experiences}
 \input{sections/experience}
 
 \section{Education}
@@ -35,5 +37,6 @@
 \section{Courses and certificates}
 \input{sections/courses}
 
- \end{document}
+\end{document}
 % \newpage
+
